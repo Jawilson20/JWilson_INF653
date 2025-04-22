@@ -1,4 +1,4 @@
-const Student = require('../../MongoDB/student-record-backend/models/student');
+const Student = require('../models/student');
 
 // GET all
 exports.getAllStudents = async (req, res) => {
