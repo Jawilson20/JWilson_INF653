@@ -1,4 +1,4 @@
-const Student = require('../models/student');
+const Student = require('../../MongoDB/models/student');
 
 // GET all
 exports.getAllStudents = async (req, res) => {
